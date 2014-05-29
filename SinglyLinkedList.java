@@ -1,11 +1,8 @@
-
 /*
  *
  *  SinglyLinkedList.java
  *
- *  Provided by Henry Lo for CS310
- *
- *
+ *  Created by Henry Lo for CS310
  */
 
 public class SinglyLinkedList<T> 
@@ -96,4 +93,3 @@ class Node<T>
     this.next = next;
   }
 }
-
