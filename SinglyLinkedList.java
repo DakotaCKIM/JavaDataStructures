@@ -3,7 +3,9 @@
  *
  *  SinglyLinkedList.java
  *
- *  Modified by Dakota Kim on 5/28/14
+ *  Provided by Henry Lo for CS310
+ *
+ *
  */
 
 public class SinglyLinkedList<T> 
