@@ -5,7 +5,7 @@ import java.util.*;
 
 public class TermReport {
 
-	private LineUsageData[] lists;
+	private LineUsageData[] lineData;
 
 	public static void main(String[] args) {
 		TermReport print = new TermReport();
@@ -16,9 +16,9 @@ public class TermReport {
 	public TermReport() {
 		// Here, we create an array of 500 SinglyLinkedLists
 		// Each index will represent 1 of 500 PCs.
-		lists = new LineUsageData[501];
-		for (int i = 1; i < lists.length; i++)
-			lists[i] = new LineUsageData();
+		lineData = new LineUsageData[501]; // We have to add
+		for (int i = 1; i < lineData.length; i++)
+			lineData[i] = new LineUsageData();
 	}
 
 	// This input() method will take input from System.in and place
@@ -26,26 +26,27 @@ public class TermReport {
 	private void input() {
 		Scanner scan = new Scanner(System.in);
 		String line, user;
-		int number;
 		while (scan.hasNextLine()) {
 			line = scan.nextLine();
 			Scanner s = new Scanner(line);
-			number = s.nextInt();
-			user = s.next();
-			lists[number].addObservation(user);
+			int index;
+			if (s.hasNextInt()) {
+				index = s.nextInt();
+				user = s.next();
+				lineData[index].addObservation(user);
+			}
 		}
 	}
 
 	// This will print out the Line, Most Common User and Count.
-
 	private void output() {
 		System.out.println("Line\tMost Common User\tCount");
 		// Loop through array and print out the most common user
 		// and their number of appearances.
-		for (int i = 1; i <= lists.length; i++) {
-			Usage record = lists[i].findMaxUsage();
-			System.out.println(i + "\t" + record.username() + "\t"
-					+ record.count());
+		for (int i = 1; i < lineData.length; i++) {
+			Usage record = lineData[i].findMaxUsage();
+			System.out.println(i + "\t" + record.userName + "\t\t\t"
+			+ record.count);
 		}
 	}
 }
