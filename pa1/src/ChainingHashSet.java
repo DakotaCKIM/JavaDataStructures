@@ -16,6 +16,10 @@ public class ChainingHashSet<E> extends AbstractHashSet<E> {
 	{
 		collisions = 0;
 		chainSet = new ArrayList<LinkedList<E>>(numSlots);
+		for (int i = 0; i < numSlots; i++)
+		{
+			chainSet.add(null);
+		}
 		this.numSlots = numSlots;
 	}
 
@@ -33,17 +37,19 @@ public class ChainingHashSet<E> extends AbstractHashSet<E> {
 
 		boolean verify = false;
 		int hashSlot = Math.abs(e.hashCode()) % numSlots;
-
 		LinkedList<E> hashSpot = chainSet.get(hashSlot);
-		if (chainSet.get(hashSlot).equals(null))
+		LinkedList<E> temp = new LinkedList<E>();
+
+		if ((chainSet.get(hashSlot)) == null)
 		{
-			chainSet.get(hashSlot).add(e);
+			chainSet.set(hashSlot, temp);
+			temp.add(e);
 			verify = true;
 		}
 		else if (!chainSet.get(hashSlot).equals(null))
 		{
 			collisions += hashSpot.size();
-			hashSpot.add(e);
+			hashSpot.set(hashSlot, e);
 		}
 		return verify;
 	}
