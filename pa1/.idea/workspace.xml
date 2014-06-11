@@ -65,34 +65,34 @@
       <file leaf-file-name="AbstractHashSet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+            <state vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="870">
               <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearHashSet.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LinearHashSet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinearHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.79262674" vertical-offset="511" max-vertical-offset="1035">
+              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChainingHashSet.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ChainingHashSet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChainingHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69124424" vertical-offset="0" max-vertical-offset="1200">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
               <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -133,7 +133,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+            <state vertical-scroll-proportion="0.0" vertical-offset="706" max-vertical-offset="1140">
               <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/QuadraticHashSet.java" />
-        <option value="$PROJECT_DIR$/src/LinearHashSet.java" />
         <option value="$PROJECT_DIR$/src/ChainingHashSet.java" />
+        <option value="$PROJECT_DIR$/src/LinearHashSet.java" />
       </list>
     </option>
   </component>
@@ -557,10 +557,10 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,17 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#908#933#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="870">
@@ -640,17 +629,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinearHashSet.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="960">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#908#933#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,7 +662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChainingHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69124424" vertical-offset="0" max-vertical-offset="1200">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -688,6 +673,21 @@
             <element signature="e#1328#1329#0" expanded="true" />
             <element signature="e#1360#1361#0" expanded="true" />
             <element signature="e#1384#1385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinearHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79262674" vertical-offset="511" max-vertical-offset="1035">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
           </folding>
         </state>
       </provider>

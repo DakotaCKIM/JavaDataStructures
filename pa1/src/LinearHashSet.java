@@ -3,6 +3,9 @@
  *
  * Some assistance was given by Eugene and Chao Duan.
  *
+ * For some reason, this would print out a roughly 2,000 value, until I added verify = true;
+ * Then it went up to around 30,000, which I figured is closer.
+ *
  */
 
 import java.util.*;
@@ -41,12 +44,14 @@ public class LinearHashSet<E> extends AbstractHashSet<E> {
 	public boolean add(E e)
 	{
 		boolean verify = false;
-		int hashSlot = (Math.abs(e.hashCode()) % numSlots);
+		int hashSlot = Math.abs(e.hashCode() % numSlots);
+		int hashNum = Math.abs(e.hashCode());
 		int i = 0;
 		while (hashArray[hashSlot] != null && i < numSlots) {
-			collisions ++;
-			i++;
-			hashSlot = (Math.abs(e.hashCode() + (stepSize * i))) % numSlots;
+				collisions++;
+				++i;
+				hashSlot = (hashNum + (stepSize * i)) % numSlots;
+				verify = true;
 		}
 		if (hashArray[hashSlot] == null) {
 			hashArray[hashSlot] = e;
