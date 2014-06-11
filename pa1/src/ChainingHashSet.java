@@ -30,7 +30,7 @@ public class ChainingHashSet<E> extends AbstractHashSet<E> {
 			if (!chainSet.get(i).get(i).equals(null))
 				size++;
 		}
-			return size;
+		return size;
 	}
 
 	public boolean add(E e) {
@@ -40,7 +40,7 @@ public class ChainingHashSet<E> extends AbstractHashSet<E> {
 		LinkedList<E> hashSpot = chainSet.get(hashSlot);
 		LinkedList<E> temp = new LinkedList<E>();
 
-		if ((chainSet.get(hashSlot)) == null)
+		if (chainSet.get(hashSlot)==null)
 		{
 			chainSet.set(hashSlot, temp);
 			temp.add(e);
@@ -49,7 +49,8 @@ public class ChainingHashSet<E> extends AbstractHashSet<E> {
 		else if (!chainSet.get(hashSlot).equals(null))
 		{
 			collisions += hashSpot.size();
-			hashSpot.set(hashSlot, e);
+			chainSet.get(hashSlot).add(e);
+			verify = true;
 		}
 		return verify;
 	}
